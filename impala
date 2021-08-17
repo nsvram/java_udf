@@ -1,0 +1,7 @@
+DROP FUNCTION default.ip_to_number; CREATE FUNCTION default.ip_to_number LOCATION '/tmp/hive-udf-1.0-SNAPSHOT.jar' symbol='pacs.cp.crucible.hive.IPAddressToNumber';
+DROP FUNCTION default.number_to_ip; CREATE FUNCTION default.number_to_ip LOCATION '/tmp/hive-udf-1.0-SNAPSHOT.jar' symbol='pacs.cp.crucible.hive.IPNumberToAddress';
+DROP FUNCTION default.highest_ip_number_in_cidr; CREATE FUNCTION default.highest_ip_number_in_cidr LOCATION '/tmp/hive-udf-1.0-SNAPSHOT.jar' symbol='pacs.cp.crucible.hive.HighestIPAddressNumberInCIDR';
+DROP FUNCTION default.lowest_ip_number_in_cidr; CREATE FUNCTION default.lowest_ip_number_in_cidr LOCATION '/tmp/hive-udf-1.0-SNAPSHOT.jar' symbol='pacs.cp.crucible.hive.LowestIPAddressNumberInCIDR';
+DROP FUNCTION default.is_ip_in_cidr; CREATE FUNCTION default.is_ip_in_cidr LOCATION '/tmp/hive-udf-1.0-SNAPSHOT.jar' symbol='pacs.cp.crucible.hive.IsIPAddressInCIDR';
+DROP FUNCTION default.is_ip_in_cidr; CREATE FUNCTION default.is_ip_in_cidr LOCATION '/tmp/hive-udf-1.0-SNAPSHOT.jar' symbol='pacs.cp.crucible.hive.IsIPAddressInCIDR';
+
